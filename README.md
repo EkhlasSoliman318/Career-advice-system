@@ -26,7 +26,10 @@ Retrieval Augmented Generation (RAG) is a powerful technique that augments the c
   - `RAG_system_task.ipynb`: A Jupyter notebook that encapsulates all the steps and phases of the RAG pipeline, providing an interactive environment for running and testing the system.
   - `vectordb.py`: Creates the vector database using Pinecone, based on the extracted embedding vectors, to facilitate efficient document retrieval.
 - `.gitignore`: Specifies files and directories to be ignored by git, keeping the repository clean from unnecessary files.
-- `main.py`: Contains the complete end-to-end pipeline and structured methods from the `src/` folder, serving as the central script to run the system.
+- `main.py`: Contains the complete end-to-end pipeline and structured methods from the `src/` folder, serving as the central script 
+to run the system.
+- `config` : config file for all variables in the project
+- `app` : streamlit app for create Chatbot 
 - `requirements.txt`: Lists the required libraries and dependencies necessary for running this system.
 
 ## Installation
@@ -38,7 +41,7 @@ Retrieval Augmented Generation (RAG) is a powerful technique that augments the c
     ```
 2. Create conda env 
   ```sh
-  conda create -n env-name python==3.10.0
+    conda create -n env-name python==3.10.0
   ```
 3. Install the required packages:
     ```sh
@@ -52,7 +55,7 @@ Retrieval Augmented Generation (RAG) is a powerful technique that augments the c
     ```
 2. the app run at 
   ```sh
-  http://localhost:8501
+    http://localhost:8501
   ```
 ## Contributing
 
